@@ -24,7 +24,102 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-![alt text](image.png)
+```
+
+<html>
+    <head>
+        <title> slot timetable</title>
+    </head>
+    <body>
+        <center>
+            <img src="/static/logo.png"height="100"width="540">
+        </center>
+    </body>
+</html>
+<table aling center="center" width="540" cellspacing="4" border="5">
+    <h1>DHANASHREE.A  (24900202)</h1>
+    <caption>Marksheet</caption>
+    <tr bgcolor="red">
+        <th>TIME/DAY</th>
+        <th>MONDAY</th>
+        <th>TUESDAY</th>
+        <th>WEDNESDAY</th>
+        <th>THURSDAY</th>
+        <th>Friday</th>
+        <th>SATURDAY</th>
+    </tr>
+    <tr bgcolor="yellow">
+        <th>8-10</th>
+        <td>Free</td>
+        <td>Web</td>
+        <td>Free</td>
+        <td>Free</td>
+        <td>Free</td>
+        <td>Eng</td>
+    </tr>
+    <tr bgcolor="yellow">
+        <th>1-3</th>
+        <td>Maths</td>
+        <td>Free</td>
+        <td>Eng</td>
+        <td>Free</td>
+        <td>Career</td>
+        <td>C program</td>
+    </tr>
+    <tr bgcolor="yellow">
+        <th>3-5</th>
+        <td>Free</td>
+        <td>DE</td>
+        <td>Chem</td>
+        <td>Chem</td>
+        <td>Free</td>
+        <td>Free</td>
+    </tr>
+    </table>
+</table border>
+<table border="2">
+    <tr bgcolor="red">
+        <th>S.no</th>
+        <th>Couse code</th>
+        <th>Course name</th>
+    </tr>
+    <tr bgcolor="yellow">
+        <td>1</td>
+        <td>19AI414</td>
+        <td>FUNDAMENTALS OF WEB APPLICATION</td>
+    </tr>
+    <tr bgcolor="yellow">
+        <td>2</td>
+        <td>19MA201</td>
+        <td>CALCULUS AND MATRIX ALGEBRA </td>
+    </tr>
+    <tr bgcolor="yellow">
+        <td>3</td>
+        <td>19EN101</td>
+        <td>COMMUNICATIVE ENGLISH</td>
+    </tr>
+    <tr bgcolor="yellow">
+        <td>4</td>
+        <td>19AI304</td>
+        <td>FUNDAMENTALS OF C PROGRAMMING</td>
+    </tr>
+    <tr bgcolor="yellow">
+        <td>5</td>
+        <td>19EY708</td>
+        <td>CAREER DEVELOPMENT SKILLS</td>
+    </tr>
+    <tr bgcolor="yellow">
+        <td>6</td>
+        <td>19CY205</td>
+        <td>PRINCIPLE OF CHEMISTRY IN ENGINEERING </td>
+    </tr>
+    <tr bgcolor="yellow">
+        <td>7</td>
+        <td>19EE404</td>
+        <td>DIGITAL ELECTRONICS </td>
+    </tr>
+</table>
+```
 ## OUTPUT
 ![alt text](<Screenshot (4).png>)
 
